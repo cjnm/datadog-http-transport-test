@@ -6,7 +6,6 @@ Note: The documentation may provide the datadoc url like this `http-intake.logs.
 
 Running:
 ```bash
-npm i
 docker build . -t datadog/node_app
 docker run -p 49160:8080 -d datadog/node_app
 ```
